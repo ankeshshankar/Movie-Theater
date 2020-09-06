@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane prefHeight="255.0" prefWidth="360.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.movie.controller.Audi">
+    <Pane prefHeight="255.0" prefWidth="360.0">
+        <Button layoutX="14.0" layoutY="20.0" mnemonicParsing="false" text="A1" fx:id="A1"/>
+        <Button layoutX="52.0" layoutY="20.0" mnemonicParsing="false" text="A2" fx:id="A2"/>
+        <Button layoutX="91.0" layoutY="20.0" mnemonicParsing="false" text="A3" fx:id="A3"/>
+        <Button layoutX="130.0" layoutY="20.0" mnemonicParsing="false" text="A4" fx:id="A4"/>
+        <Button layoutX="168.0" layoutY="20.0" mnemonicParsing="false" text="A5" fx:id="A5"/>
+        <Button layoutX="53.0" layoutY="89.0" mnemonicParsing="false" text="B2" fx:id="B2"/>
+        <Button layoutX="91.0" layoutY="88.0" mnemonicParsing="false" text="B3" fx:id="B3"/>
+        <Button layoutX="130.0" layoutY="89.0" mnemonicParsing="false" text="B4" fx:id="B4"/>
+        <Button layoutX="169.0" layoutY="88.0" mnemonicParsing="false" text="B5" fx:id="B5"/>
+        <Button layoutX="207.0" layoutY="88.0" mnemonicParsing="false" text="B6" fx:id="B6"/>
+        <Button layoutX="56.0" layoutY="149.0" mnemonicParsing="false" text="C2" fx:id="C2"/>
+        <Button layoutX="95.0" layoutY="149.0" mnemonicParsing="false" text="C3" fx:id="C3"/>
+        <Button layoutX="134.0" layoutY="149.0" mnemonicParsing="false" text="C4" fx:id="C4"/>
+        <Button layoutX="172.0" layoutY="149.0" mnemonicParsing="false" text="C5" fx:id="C5"/>
+        <Button layoutX="211.0" layoutY="149.0" mnemonicParsing="false" text="C6" fx:id="C6"/>
+        <Button layoutX="249.0" layoutY="149.0" mnemonicParsing="false" text="C7" fx:id="C7"/>
+        <Button layoutX="14.0" layoutY="149.0" mnemonicParsing="false" text="C1" fx:id="C1"/>
+      <Button layoutX="14.0" layoutY="89.0" mnemonicParsing="false" text="B1" fx:id="B1"/>
+      <Button layoutX="249.0" layoutY="89.0" mnemonicParsing="false" text="B7" fx:id="B7"/>
+      <Button layoutX="288.0" layoutY="89.0" mnemonicParsing="false" text="B8" fx:id="B8"/>
+      <Button layoutX="287.0" layoutY="149.0" mnemonicParsing="false" text="C8" fx:id="C8"/>
+      <Button layoutX="324.0" layoutY="149.0" mnemonicParsing="false" text="C9" fx:id="C9" />
+    </Pane>
+</AnchorPane>

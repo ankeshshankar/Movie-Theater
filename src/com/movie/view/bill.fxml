@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="483.0" prefWidth="338.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.movie.controller.Bill">
+    <Pane layoutY="-4.0" prefHeight="483.0" prefWidth="338.0">
+        <Label layoutX="125.0" layoutY="16.0" text="Movie Name" />
+        <Label fx:id="movieName" alignment="CENTER" layoutX="40.0" layoutY="45.0" prefHeight="17.0" prefWidth="237.0" textFill="#da1111" underline="true">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <Label layoutX="23.0" layoutY="99.0" prefHeight="17.0" prefWidth="95.0" text="Seat Numbers" />
+        <Label fx:id="seats" layoutX="23.0" layoutY="130.0" prefHeight="27.0" prefWidth="292.0" textFill="#c62f2f" />
+        <Label layoutX="23.0" layoutY="228.0" prefHeight="17.0" prefWidth="95.0" text="Audi No." />
+        <Label layoutX="23.0" layoutY="274.0" prefHeight="17.0" prefWidth="95.0" text="Revenue" />
+        <Label layoutX="23.0" layoutY="300.0" prefHeight="17.0" prefWidth="152.0" text="Service Tax                   14%" />
+        <Label layoutX="23.0" layoutY="325.0" prefHeight="17.0" prefWidth="152.0" text="Swachh Bahrat Cess   0.5%" />
+        <Label layoutX="23.0" layoutY="348.0" prefHeight="17.0" prefWidth="152.0" text="Krishi  Klaysn Cess      0.5% " />
+        <Line endX="100.0" layoutX="219.0" layoutY="375.0" startX="-200.0" />
+        <Line endX="100.0" layoutX="82.0" layoutY="376.0" startX="100.0" startY="-157.0" />
+        <Line endX="100.0" layoutX="-82.0" layoutY="374.0" startX="100.0" startY="-157.0" />
+        <Line endX="100.0" layoutX="219.0" layoutY="218.0" startX="-200.0" />
+        <Line endX="100.0" layoutX="218.0" layoutY="373.0" startX="100.0" startY="-157.0" />
+        <Label layoutX="91.0" layoutY="396.0" prefHeight="17.0" prefWidth="95.0" text="Total -" />
+        <Label fx:id="total" alignment="CENTER_RIGHT" layoutX="190.0" layoutY="387.0" prefHeight="35.0" prefWidth="124.0" text="00.0">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+        <Label fx:id="revienu" alignment="CENTER_RIGHT" layoutX="214.0" layoutY="274.0" prefHeight="17.0" prefWidth="95.0" text="00.0" />
+        <Label fx:id="serviceL" alignment="CENTER_RIGHT" layoutX="214.0" layoutY="300.0" prefHeight="17.0" prefWidth="95.0" text="00.0" />
+        <Label fx:id="sbc" alignment="CENTER_RIGHT" layoutX="214.0" layoutY="325.0" prefHeight="17.0" prefWidth="95.0" text="00.0" />
+        <Label fx:id="kkc" alignment="CENTER_RIGHT" layoutX="214.0" layoutY="348.0" prefHeight="17.0" prefWidth="95.0" text="00.0" />
+        <Label layoutX="24.0" layoutY="170.0" prefHeight="27.0" prefWidth="292.0" text="A -Rs 320                   B- Rs 280                    C - Rs 240" textFill="#110f0f" />
+      <Label fx:id="audiNo" alignment="CENTER" layoutX="214.0" layoutY="233.0" prefHeight="17.0" prefWidth="95.0" text="1" />
+    </Pane>
+</AnchorPane>
