@@ -5,8 +5,6 @@
 # IntelliJ project files
 .idea
 *.iml
-out
-gen
 .classpath
 .gitignore
 .idea/.gitignore
@@ -21,8 +19,3 @@ gen
 .idea/modules.xml
 .idea/uiDesigner.xml
 .idea/vcs.xml
-.project
-Movie Theater.eml
-Movie Theater.iml
-Movie Theater.userlibraries
-src/
